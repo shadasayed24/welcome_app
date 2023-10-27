@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!-- Image View -->
+
+    <!-- Name Text View -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/image" />
+
+    <TextView
+    android:id="@+id/nameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:text="shada "
+    android:textSize="24sp" />
+
+<!-- ID Text View -->
+<TextView
+    android:id="@+id/idTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/nameTextView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:text="ID:20221376544"
+    android:textSize="16sp" />
+
+<!-- Button -->
+<Button
+    android:id="@+id/nextButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idTextView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:text="Next " />
+
+</RelativeLayout>
+
+
+
